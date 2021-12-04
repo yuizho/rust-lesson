@@ -1,4 +1,5 @@
 mod generics;
+mod lifetime;
 mod ownership;
 mod stack_heap;
 mod vars;
@@ -9,5 +10,6 @@ fn main() {
     //vars::run();
     //stack_heap::run();
     //ownership::run();
-    generics::run();
+    //generics::run();
+    lifetime::run();
 }
